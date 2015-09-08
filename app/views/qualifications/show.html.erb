@@ -1,8 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @qualification.name %>
+  <h3>Qualification: <%= @qualification.name %>
 </p>
 
 <table class='table'>
@@ -17,7 +16,7 @@
     <% @qualification.subjects.each do |subject| %>
       <% if subject then%>
       <tr>
-        <td style="background-color: <%= subject.colour %>"><%= subject.name %></td>
+        <td colspan=2 style="background-color: <%= subject.colour %>"><%= subject.name %></td>
       </tr>
     <% end %>
     <% end %>
