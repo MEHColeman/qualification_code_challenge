@@ -13,6 +13,9 @@ A nicer design might be to, say, dynamically expand a table of subjects when
 you click on a qualification, but then we're going back to an angular app, and
 it would have shown off fewer bits of the rails framework.
 
+I didn't do the caching task, if I did, I would probably make use of
+https://github.com/Ahsizara/cached_resource
+
 Note:
 There are two bugs/features worth pointing out:
 1) The sample JSON provided in the PDF is not valid. Keys need to be quoted,
