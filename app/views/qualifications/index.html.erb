@@ -14,7 +14,7 @@
     <% @qualifications.each do |qualification| %>
       <tr>
         <td><%= qualification.name %></td>
-        <td><%= link_to 'Show', qualification %></td>
+        <td><%= link_to 'Show', qualification, class: 'btn btn-primary' %></td>
       </tr>
     <% end %>
   </tbody>
