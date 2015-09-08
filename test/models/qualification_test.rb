@@ -8,6 +8,6 @@ class QualificationTest < ActiveSupport::TestCase
 
   test 'has a title' do
     qualification = Qualification.all.first
-    assert_not_nil qualification.title
+    assert_not_nil qualification.name
   end
 end
